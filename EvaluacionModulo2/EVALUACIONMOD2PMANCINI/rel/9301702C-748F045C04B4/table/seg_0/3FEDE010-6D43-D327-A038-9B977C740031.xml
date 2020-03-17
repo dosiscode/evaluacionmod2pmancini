@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FEDE010-6D43-D327-A038-9B977C740031" name="TEST_POR_CURSO">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:02 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEST_ID_TEST" id="EA3FE52D-FE10-294F-6902-F3212743B92B">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:02 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5346FA37-4FC9-F6B7-C474-23D8391C935E" referredColumn="54960F3E-B2E3-9830-D0FD-11AEA4D0B906"/>
+</associations>
+</Column>
+<Column name="CURSO_ID_CURSO" id="664D8AA9-45C8-7B11-E9A0-A22AE2780E6F">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:02 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="096FCB1C-B3CA-5363-3D0E-4ADB95E71F07" referredColumn="6C72AEE7-5975-AD07-57EB-9264C0BFF808"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD05F595-15F3-58F8-7EFC-977952DDB2CF" name="TEST_POR_CURSO_PK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:02 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3FE52D-FE10-294F-6902-F3212743B92B"/>
+<colUsage columnID="664D8AA9-45C8-7B11-E9A0-A22AE2780E6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54C79E29-7A77-6462-D5AC-0BD5349B8B45" name="TEST_POR_CURSO_TEST_FK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:02 UTC</createdTime>
+<generatorID>BBFB9AF3-1542-021B-56F3-4BA4B5DAFDC7</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3FE52D-FE10-294F-6902-F3212743B92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E049CFF-A89B-AFC6-8FBE-EA3109F80515" name="TEST_POR_CURSO_CURSO_FK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:02 UTC</createdTime>
+<generatorID>BBFB9AF3-1542-021B-56F3-4BA4B5DAFDC7</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="664D8AA9-45C8-7B11-E9A0-A22AE2780E6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

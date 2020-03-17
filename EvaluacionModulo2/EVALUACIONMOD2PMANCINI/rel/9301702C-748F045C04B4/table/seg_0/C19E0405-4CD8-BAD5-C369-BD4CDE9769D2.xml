@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C19E0405-4CD8-BAD5-C369-BD4CDE9769D2" name="PREG">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>BBF78DFE-BC2B-4668-DC21-2950BE5757A7</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PREG" id="65BB0EEB-4773-16EE-4D18-FBF560A7F3BE">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>C79A4517-CDC3-352B-EA42-E2A2F146BAC0</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENUNCIADO" id="EB12D65E-CD8C-B4BE-C55D-005A69AF9B16">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>581A2B5F-60A3-520A-A97F-6A7BB0AACCB2</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTAJE_TOTAL" id="23F16354-38A3-27B3-13BA-924982EE7F68">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>F78CD8FC-D17E-9FBB-DDB3-19372E9AE3D5</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEST_ID_TEST" id="659FB282-D3B4-CACA-5303-FB9F98B937DA">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>4844DF7D-E347-2939-4A7C-29AB17BB73BC</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99675ABD-EEA2-B838-DA8B-A555B91A06B4" referredColumn="54960F3E-B2E3-9830-D0FD-11AEA4D0B906"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64F8AB87-EFA8-C9CE-C40F-BB3F59A6122D" name="PREGUNTA_PK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>C1E3D68B-CEFD-5FDE-C300-16F9C8E7D3FE</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65BB0EEB-4773-16EE-4D18-FBF560A7F3BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A929C621-1BF2-B2F9-A094-B7662FDE09D2" name="PREGUNTA_TEST_FK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>4C875672-A1BA-920D-72F9-911D7D6E8924</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="659FB282-D3B4-CACA-5303-FB9F98B937DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

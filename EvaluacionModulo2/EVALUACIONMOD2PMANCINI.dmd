@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EVALUACIONMOD2PMANCINI" id="04A920B5-C009-6E05-E440-9F8FEB99C922" version="3.5">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 22:25:28 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>04A920B5-C009-6E05-E440-9F8FEB99C922</designId>
+</OSDM_Design>

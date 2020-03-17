@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F5E1A92-FFF8-F7ED-0964-D0B9CAFBEC7A" name="ALT">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:55:18 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ALT" id="0E9AEBF7-89E4-5FDF-B69A-96C6B2A5211F">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:55:46 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION_ALTERNATIVA" id="91C75CD5-FFCA-692F-70AD-BFDCB8886D8E">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:56:14 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORRECTO_O_INCORRECTO" id="E11A0521-DE81-AA16-DC08-987C72340620">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:56:28 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PONDERACION_ALTERNATIVA" id="D7B0FF02-6B8F-8EA8-1B31-BEC88C3D4888">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:56:58 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PREG" id="3A8E2918-EEC1-679C-41D3-9F61F25B704E">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:00:40 UTC</createdTime>
+<generatorID>347ED163-8DCA-1458-4EA0-C6EC19DDD525</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<referedAttribute>C79A4517-CDC3-352B-EA42-E2A2F146BAC0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTUDIANTE" id="8E2BE334-70CA-02BF-AD61-CABA3259197A">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:01:55 UTC</createdTime>
+<generatorID>5045D109-51EE-68BC-44FE-B5D2D0A3A84F</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>752528CC-E2B7-C8A5-E54F-9038F37B8CA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EE666BA-59B0-8ECE-5C9E-B0859238EAC7" name="ALTERNATIVA PK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:56:13 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E9AEBF7-89E4-5FDF-B69A-96C6B2A5211F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

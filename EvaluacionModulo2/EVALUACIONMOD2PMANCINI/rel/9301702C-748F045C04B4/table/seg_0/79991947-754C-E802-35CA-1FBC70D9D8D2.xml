@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79991947-754C-E802-35CA-1FBC70D9D8D2" name="ESTUDIANTE">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>CA3E53A2-DB7B-A822-2CBF-756C65DBD02A</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTUDIANTE" id="57C583B5-8C87-F4E8-612F-51C2DB1C38D1">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>752528CC-E2B7-C8A5-E54F-9038F37B8CA2</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTUDIANTE" id="0C30ABAE-7D1A-AFBF-4BA2-24D5658F55C1">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>770A3C11-E29C-6D38-0077-ED23470A9830</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_ID_CURSO" id="F1482315-5946-D489-F2B5-D53CFD0A749F">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>7836A8D4-8E2D-889D-71A0-4981404FDD11</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E3275BD-3D14-6CD2-91CA-A3B1946A24E4" referredColumn="6C72AEE7-5975-AD07-57EB-9264C0BFF808"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="883ACB5D-F524-7968-EE96-82AD559F7381" name="ESTUDIANTE_PK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:01 UTC</createdTime>
+<generatorID>E056AA02-EC2B-0E90-DFB5-0FDFD008888B</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57C583B5-8C87-F4E8-612F-51C2DB1C38D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E2699A8-D329-D46E-D97D-D71A88CD5B10" name="ESTUDIANTE_CURSO_FK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:03:02 UTC</createdTime>
+<generatorID>EFBE637D-97CA-694F-A519-F65087345C11</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1482315-5946-D489-F2B5-D53CFD0A749F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

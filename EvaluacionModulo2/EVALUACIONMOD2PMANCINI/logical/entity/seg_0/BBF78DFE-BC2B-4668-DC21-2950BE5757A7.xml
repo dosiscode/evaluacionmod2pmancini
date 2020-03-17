@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBF78DFE-BC2B-4668-DC21-2950BE5757A7" name="PREG">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:54:09 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PREG" id="C79A4517-CDC3-352B-EA42-E2A2F146BAC0">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:54:16 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENUNCIADO" id="581A2B5F-60A3-520A-A97F-6A7BB0AACCB2">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:54:26 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PUNTAJE_TOTAL" id="F78CD8FC-D17E-9FBB-DDB3-19372E9AE3D5">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:54:44 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TEST" id="4844DF7D-E347-2939-4A7C-29AB17BB73BC">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-17 00:00:23 UTC</createdTime>
+<generatorID>4C875672-A1BA-920D-72F9-911D7D6E8924</generatorID>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<referedAttribute>64544C44-16F5-CE58-1CB5-C8BA7E5A921A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1E3D68B-CEFD-5FDE-C300-16F9C8E7D3FE" name="PREG PK">
+<createdBy>paolo</createdBy>
+<createdTime>2020-03-16 23:54:25 UTC</createdTime>
+<ownerDesignName>EVALUACIONMOD2PMANCINI</ownerDesignName>
+<engineerTo>
+<item key="9301702C-AE48-3F33-FC08-748F045C04B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C79A4517-CDC3-352B-EA42-E2A2F146BAC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
